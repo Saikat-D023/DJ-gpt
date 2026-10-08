@@ -3,7 +3,7 @@ from src.djgpt.analysis import (
     detect_tempo, detect_key, segment, energy_curve, segment_energy,
 )
 
-SAMPLES = ["samples/sample1.mp3", "samples/sample2.mp3"]
+SAMPLES = ["samples/sample1.mp3", "samples/sample2.mp3", "samples/sample3.mp3"]
 
 for i, path in enumerate(SAMPLES, start=1):
     print(f"\n=== Song {i}: {path} ===")
